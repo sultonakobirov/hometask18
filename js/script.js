@@ -7,6 +7,7 @@ cross.onclick = ()=>{
     form.style.display = 'none'
     thanks.style.display = 'none'
     cross.style.display = 'none'
+    container.style.display = 'flex'
 }
 container.querySelector('button').onclick = ()=>{
     cross.style.display = 'block'
