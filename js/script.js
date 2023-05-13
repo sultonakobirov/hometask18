@@ -24,9 +24,10 @@ form.querySelector('button').onclick = ()=>{
                 setTimeout(()=>{
                     cross.style.display = 'none'
                     thanks.style.display = 'none'
+                    container.style.display = 'flex'
                 }, 3000)
-                }
-        }else{
+                }        
+            }else{
             form.querySelector('p').style.display = 'block'
         }
     }
